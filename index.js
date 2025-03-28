@@ -117,7 +117,7 @@ app.patch("/api/users/:id", (req, res) => {
   if (index === -1) {
     return res
       .status(400)
-      .json({ Success: false, Message: "there is no id with that value" });
+      .json({ Success: false, Message: "there is no id with thconst index = users.findIndex((item) => item.id === userId);at value" });
   }
 
   if (id !== undefined) users[index].id = id;
