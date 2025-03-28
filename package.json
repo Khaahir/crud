@@ -1,0 +1,16 @@
+{
+  "name": "sd24-backend-grunder-35yhp-vecka2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "statusOk.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.15.0"
+  }
+}
